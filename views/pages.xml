@@ -1,0 +1,45 @@
+<template id="website.hello" name="Homepage" page="True">
+    <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <h1>This is First Content</h1>
+                        <p>Isn't amazing to edit everything inline?</p>
+                        <hr/>
+                    </div>
+                </div>
+            </section>
+			<section>
+			    <div class="container">
+			        <div class="row">
+			            <div class="alert alert-primary" role="alert">
+			                <a href="#" class="alert-link">...</a>
+			            </div>
+			            <div class="col-md-6 bg-blue">
+			                <h2>BLUE it!</h2>
+			            </div>
+			            <div class="col-md-6 bg-green">
+			                <h2>GREEN THAT!</h2>
+			            </div>
+			        </div>
+					<div class="row">
+					    <div class="col-md-12 text-center mt32 mb32">
+					        <h2 class="options_simple_snippet">A great Title, prmize</h2>
+					        <h3 class="text-muted">And a great subtilte too</h3>
+					        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+					        <div class="dummy-boy"></div>
+					        <div class="dummy-girl"></div>
+					    </div>
+					</div>			        
+			    </div>
+			</section>            
+        </div>
+    </t>
+</template>
+
+<template id="fractal_web_theme_asset" name="website assete for Fracatl theme" inherit_id="website.theme">
+    <xpath expr="." position="inside">
+        <link rel="stylesheet" href="/fractal_web_theme_asset/static/style/custom.less"/>
+    </xpath>
+</template>

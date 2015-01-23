@@ -1,7 +1,7 @@
 {
     # Theme information
-    'name': "fractal-web-theme",
-    'description': """
+    'name': "Fractal Web Theme",
+    'description': """First Fractal Theme
     """,
     'category': 'Theme',
     'version': '1.0',
@@ -15,6 +15,6 @@
     ],
 
     # Your information
-    'author': "Your Company",
+    'author': "ztrelets",
     'website': "",
 }
